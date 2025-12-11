@@ -1,0 +1,172 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "poppings", sans-serif;
+}
+.top-bar {
+  background: #f4f4f4;
+  padding: 6px 20px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 13px;
+  color: #555;
+}
+.top-info span {
+  margin-left: 15px;
+}
+header {
+  width: 100%;
+  padding: 15px 25px;
+  background: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.logo {
+  font-size: 28px;
+  font-weight: 600;
+  color: #2d5d29;
+}
+.logo span {
+  color: #7ac142;
+}
+nav a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+}
+nav a.active,
+nav a:hover {
+  color: #7ac142;
+}
+.nav-right {
+  display: flex;
+  align-items: center;
+}
+.nav-right a {
+  margin-right: 15px;
+  color: #333;
+  text-decoration: none;
+}
+.fa-solid {
+  font-size: 20px;
+}
+.hero {
+  width: 100%;
+  height: 300px;
+  background: url("lettuce.avif") center/cover no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hero h1 {
+  color: #fff;
+  font-size: 48px;
+  font-weight: 600;
+}
+.icons {
+  display: flex;
+  justify-content: center;
+  padding: 40px 0;
+  gap: 40px;
+}
+.icon-box {
+  font-size: 40px;
+  color: #7ac142;
+}
+.about-section {
+  width: 100%;
+  padding: 50px 8%;
+  background: #f9f9f9;
+  font-family: "poppings" sans-serif;
+}
+.small-title {
+  font-size: 14px;
+  color: #7ac142;
+  letter-spacing: 2px;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+.main-title {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 10px;
+  color: #333;
+}
+.main-title span {
+  color: #7ac142;
+}
+.icon-line {
+  font-size: 24px;
+  color: #7ac142;
+  margin-bottom: 30px;
+}
+.about-content {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+.text-box {
+  width: 60%;
+  color: #444;
+  line-height: 1.7;
+  font-size: 15px;
+}
+.image-box img {
+  width: 260px;
+  height: 260px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: center;
+}
+.team-section {
+  width: 100%;
+  padding: 60px 8%;
+  background: #fff;
+  font-family: "poppings" sans-serif;
+  text-align: center;
+}
+.team-small-title {
+  font-size: 14px;
+  letter-spacing: 2px;
+  color: #7ac142;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+.team-title {
+  font-size: 32px;
+  font-weight: 700;
+  color: #333;
+  margin-bottom: 10px;
+}
+.team-icon {
+  font-size: 28px;
+  color: #7ac142;
+  margin-bottom: 30px;
+}
+.team-container {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+.team-card {
+  width: 200px;
+  text-align: center;
+}
+.team-card img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 6px;
+  display: block;
+  margin-bottom: 10px;
+}
+.team-card h3 {
+  font-size: 16px;
+  font-weight: 600;
+  color: #444;
+}
